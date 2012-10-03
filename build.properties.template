@@ -1,0 +1,43 @@
+####################################################################
+# Environment specific info
+####################################################################
+basedir=.
+
+####################################################################
+# Dependencies Base Directory
+####################################################################
+
+####################################################################
+# Application specific info
+####################################################################
+app.name=globaltheatricalsystem
+app.dir=${basedir}
+
+####################################################################
+# Build directories
+####################################################################
+src.dir=${basedir}/src
+config.dir=${basedir}/config
+web.dir=${basedir}/WebContent
+lib.dir=${basedir}/WebContent/WEB-INF/lib
+build.dir=${basedir}/build
+dist.dir=${basedir}/dist
+war.dir=${basedir}/war
+testNG.dir=${basedir}/test/TestNG
+####################################################################
+# 3part Jar locations
+####################################################################
+testNG.lib=${basedir}/test/lib
+# javac settings
+####################################################################
+javac.deprecation=yes
+javac.verbose=no
+javac.optimize=no
+javac.debug=yes	
+
+####################################################################
+# jboss settings
+####################################################################
+#jboss.home.dir=C:/Program Files/EnterprisePlatform-5.1.1/jboss-eap-5.1/jboss-as
+jboss.home.dir=C:/servers/jboss-6.0.0.Final
+

@@ -1,0 +1,706 @@
+body {
+	margin: 0;
+	border: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+img {
+	border: 0;
+	vertical-align: middle
+}
+
+.ClearFloat {
+	clear: both
+}
+
+.TopBannerBgContainer {
+	background: url(/addressbook/resources/images/TopBannerBg.jpg) top right no-repeat
+		#000;
+	height: 68px;
+	width: 1002px;
+	margin: 0px auto;
+}
+
+.TopLogoTitleContainer {
+	padding: 18px 20px 0px 5px
+}
+
+.TopLeftLogo {
+	float: left;
+	width: 155px;
+}
+
+.TopRightAppTitle {
+	float: right
+}
+
+.TopLoginContainer {
+	background: url(/addressbook/resources/images/TopLoginBg.gif) no-repeat;
+	width: 155px;
+	height: 27px;
+	float: right;
+	margin-top: 1px
+}
+
+.Logout {
+	font-size: 12px;
+	color: #011836;
+	width: 95px;
+	float: right
+}
+
+.Line {
+	font-size: 12px;
+	color: #011836;
+	padding-left: 5px
+}
+
+a.LogLink:link,a.LogLink:visited {
+	color: #030d48;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 26px;
+	padding: 5px 0 5px 5px
+}
+
+a.LogLink:hover {
+	color: #9a9a9a;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 26px;
+	padding: 5px 0 5px 5px
+}
+
+a.FooterLink:link,a.FooterLink:visited {
+	color: #030d48;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 26px;
+	padding: 5px 0 5px 5px
+}
+
+a.FooterLink:hover {
+	color: #9a9a9a;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 26px;
+	padding: 5px 0 5px 5px
+}
+
+
+#MainContainer {
+	width: 1001px;
+	margin: 0px auto;
+	background: #eaeff6;
+	border: 1px solid #000000
+}
+
+#InnerMainContainer {
+	width: 990px;
+	margin: 0px auto;
+	padding: 10px 0px 10px 3px;
+}
+
+.TopTabContainer {
+	width: 100%
+}
+
+.EntryTab {
+	float: left
+}
+
+.EntryTabUser {
+	float: right;
+	color: #12376C;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 7px 0 0 5px;
+}
+.SearchTab {
+	float: left
+}
+
+.AdminTab {
+	float: left
+}
+
+.InnerFormMainContainer {
+	border: 1px solid #999999;
+	background: #ffffff;
+	width: 99.5%
+}
+
+.BoxTop {
+	background: url(/addressbook/resources/images/TableTop.jpg) no-repeat;
+	height: 31px;
+	width: 522px;
+}
+
+.AppBoxTop {
+	background: url(/addressbook/resources/images/TableTop.jpg) no-repeat;
+	height: 31px;
+	width:  937px;
+}
+
+.AddBoxTop {
+	background: url(/addressbook/resources/images/AddBoxTop.jpg) no-repeat;
+	height: 31px;
+	width: 415px;
+}
+
+.AppBoxMid {
+	background: url(/addressbook/resources/images/TableMid.jpg) repeat-y;
+	height: auto;
+	width: 937px
+}
+
+.BoxMid {
+	background: url(/addressbook/resources/images/TableMid.jpg) repeat-y;
+	height: auto;
+	width: 522px
+}
+
+.AddBoxMid {
+	background: url(/addressbook/resources/images/AddTableMid.jpg) repeat-y;
+	height: auto;
+	width: 415px
+}
+
+.BoxBot {
+	width: 522px;
+	background: url(/addressbook/resources/images/TableBot.jpg) no-repeat;
+	height: 13px
+}
+
+.AddBoxBot {
+	width: 415px;
+	background: url(/addressbook/resources/images/AddBoxBot.jpg) no-repeat;
+	height: 13px
+}
+
+.InnerFormBoxContainer {
+	width: 522px;
+	padding: 10px 0px 0px 0;
+}
+
+.AddInnerFormBoxContainer {
+	width: 415px;
+	padding: 10px 0px 0px 0;
+	float: left
+}
+
+.TableHeader {
+	color: #12376c;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 7px 0 0 5px;	
+}
+
+.InnerFormFieldContainer {
+	width: 522px;
+	margin: 0px auto;
+	padding-top: 10px;
+}
+
+.AppInnerFormFieldContainer {
+	width: 937px;
+	margin: 0px auto;
+	padding-top: 10px;
+}
+
+
+
+.InnerAddFormFieldContainer {
+	width: 415px;
+	margin: 0px auto;
+	padding-top: 5px;
+}
+
+.BussinessLeftForm {
+	float: left;
+	width: 282px;
+	padding-left: 8px;
+}
+
+.BEtextfield {
+	border: 1px solid #7d9ecb;
+	width: 250px;
+	font-size: 12px;
+}
+
+.CommentsTextarea {
+	border: 1px solid #7d9ecb;
+	width: 190px;
+	font-size: 12px;
+}
+
+.BEddfield {
+	border: 1px solid #7d9ecb;
+	width: 254px
+}
+
+.LabelText {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.NormalText {
+	font-size: 11px;
+}
+
+.BEpeopleBoxContainer {
+	float: left;
+	width: 114px;
+	background: url(/addressbook/resources/images/BNpeopleBox.jpg) no-repeat;
+	height: 308px;
+}
+
+.BEpeopleHeight {
+	height: 32px;
+}
+
+.BotHeight {
+	height: 15px;
+}
+
+.BEpeopleIconList {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: 105px;
+	padding-top: 5px;
+	height: 269px
+}
+
+.BEaddBoxContainer {
+	float: left;
+	width: 107px;
+	background: url(/addressbook/resources/images/BNaddBox.jpg) no-repeat;
+	height: 308px
+}
+
+.PersonLeftForm {
+	float: left;
+	width: 395px;
+	padding-left: 8px;
+}
+
+.ApprovalLeftForm {
+	float: left;
+	width: 395px;
+	padding-left: 8px;
+}
+
+.legHeadH2 {
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+
+#legendContainerM {
+	padding-top: 1px;
+	width: 262px;
+}
+
+#legendContainerM2 {
+	padding-top: 1px;
+	width: 262px;
+}
+
+#legendContainerM3 {
+	padding-top: 1px;
+	width: 262px;
+}
+
+#legenInnerContainer {
+	width: 98%;
+	margin: 0px auto;
+}
+
+.MailPhoneText {
+	font-size: 12px;
+	color: #161616
+}
+
+.IconText {
+	font-size: 10px;
+	color: #161616
+}
+
+.PersonPN {
+	border: 1px solid #7d9ecb;
+	width: 100px;
+	font-size: 11px;
+}
+
+.refTypeText {
+	border: 1px solid #7d9ecb;
+	width: 110px;
+	font-size: 11px;
+}
+
+.refTypeSelect {
+	border: 1px solid #7d9ecb;
+	width: 80px;
+	font-size: 11px;
+}
+
+.AddST {
+	border: 1px solid #7d9ecb;
+	width: 120px
+}
+
+.PersonBoxContainer {
+	float: left;
+	width: 107px;
+	background: url(/addressbook/resources/images/PersonaddBox.jpg) no-repeat;
+	height: 308px;
+}
+
+.PersonpeopleIconList {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: 105px;
+	padding-top: 5px;
+	height: 269px
+}
+
+.EntryMainLeft {
+	float: left;
+	margin: 0 16px 0 15px;
+	width: 525px
+}
+
+.EntryMainRight {
+	float: left;
+	width: 415px;
+}
+
+.BEaddStreettextfield {
+	border: 1px solid #7d9ecb;
+	width: 390px
+}
+
+.RejectConfirmtextfield {
+	border: 1px solid #7d9ecb;
+	width: 350px
+}
+
+.AdminMainLeft {
+	float: left;
+	margin: 0 16px 0 19px;
+	width: 948px;
+}
+
+.AdminInnerFormBoxContainer {
+	width: 948px;
+	padding: 10px 0px 0px 0;
+}
+
+.AdminBoxTop {
+	background: url(/addressbook/resources/images/AdminTableTop.jpg) no-repeat;
+	height: 31px;
+	width: 948px;
+}
+
+.AdminBoxMid {
+	background: url(/addressbook/resources/images/AdminTableMid.jpg) repeat-y;
+	height: auto;
+	width: 948px
+}
+
+.AdminBoxBot {
+	width: 948px;
+	background: url(/addressbook/resources/images/AdminTableBot.jpg) no-repeat;
+	height: 13px
+}
+
+.AdminInnerFormFieldContainer {
+	width: 920px;
+	margin: 0px auto;
+	padding-top: 10px;
+}
+
+.header_TR {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 12px;
+	COLOR: #12376C;
+	background: url(/addressbook/resources/images/TableHeaderBg.jpg) repeat-x;
+	height: 28px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.exception_TR {
+	FONT-WEIGHT: normal;
+	FONT-SIZE: 14px;
+	COLOR: #12376C;
+	background: url(/addressbook/resources/images/TableHeaderBg.jpg) repeat-x;
+	height: 28px;
+	font-weight: normal;
+	font-style:italic;
+	text-align: center;
+}
+.TrRadioEven {
+	text-align: center;
+	background-color: #f8f8f8;
+	font-size: 11px;
+	border-bottom: 1px #87b0d7;
+	border-right: 1px #87b0d7
+}
+
+.TrRadioOdd {
+	text-align: center;
+	background-color: #e9e9e9;
+	font-size: 11px;
+	border-bottom: 1px #87b0d7;
+	border-right: 1px #87b0d7
+}
+
+.TrRow0 {
+	background-color: #f8f8f8;
+	text-align: left;
+	font-size: 11px;
+	border-bottom: 1px #87b0d7;
+	border-right: 1px #87b0d7;
+	color: #000000;
+}
+
+.TrRow1 {
+	background-color: #e9e9e9;
+	text-align: left;
+	font-size: 11px;
+	border-bottom: 1px #87b0d7;
+	border-right: 1px #87b0d7;
+	color: #000000;
+}
+
+.TrHeader {
+	font-size: 11px;
+	background: #006699;
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
+	border-right: solid #ffffff;
+}
+
+.ApproveBtn {
+	text-align: right;
+	margin: 15px 15px 0 0
+}
+
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}
+  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  z-index:9999;
+  padding:20px;
+  display:none;
+}
+
+#boxes #modalPersonAddr {
+  width:420px; 
+  height:303px;
+  padding:10px;
+}
+
+#boxes #modalBusEntyAddr {
+  width:420px; 
+  height:403px;
+  padding:10px;
+}
+
+
+#personConfirmboxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  z-index:9999;
+  padding:20px;
+  display:none;
+}
+
+#personConfirmboxes #personDelConfirmModal {
+  width:420px; 
+  height:203px;
+  padding:10px;
+}
+
+
+#rejectEmailboxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  z-index:9999;
+  padding:20px;
+  display:none;
+}
+
+#rejectEmailboxes #rejectModal {
+  width:420px; 
+  height:203px;
+  padding:10px;
+}
+
+
+
+#beConfirmboxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  z-index:9999;
+  padding:20px;
+  display:none;
+}
+
+#beConfirmboxes #beDelConfirmModal {
+  width:420px; 
+  height:203px;
+  padding:10px;
+}
+
+
+#addressConfirmboxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:440px;
+  height:200px;
+  z-index:9999;
+  padding:20px;
+  display:none;
+}
+
+#addressConfirmboxes #addressDelConfirmModal {
+  width:420px; 
+  height:203px;
+  padding:10px;
+}
+
+
+
+
+.error {
+	color: #ff0000;	
+}
+
+.message {
+	color: #009900;	
+}
+
+.mandatorySymbol {
+	color: red;	
+	font-size: 11px;
+}
+
+.divPopup {
+	position:absolute; 
+	background-color:#f0f5f7;  
+	visibility:hidden;   
+	BORDER-RIGHT: #828f95 2px solid; 
+	PADDING-RIGHT: 0px; 
+	BORDER-TOP: #828f95 2px solid; 
+	PADDING-LEFT: 0px; 
+	PADDING-BOTTOM: 3px; 
+	BORDER-LEFT: #828f95 2px solid; 
+	PADDING-TOP: 0px; 
+	BORDER-BOTTOM: #828f95 2px solid;
+	z-index:9999
+}
+
+a.button {
+background: transparent url(/addressbook/resources/images/bg_button_a.gif) no-repeat scroll top right; /* Save the bg_button_a.gif in the same folder */ 
+color: #444; 
+display: block;
+float: left;
+font: normal 12px arial, sans-serif;
+height: 24px;
+margin-right: 6px;
+padding-right: 18px;
+text-decoration: none;
+}
+
+a.button span {
+background: transparent url(/addressbook/resources/images/bg_button_span.gif) no-repeat top left; /* Save the bg_button_span.gif in the same folder */
+display: block;
+line-height: 14px; 
+padding: 5px 0 5px 18px; 
+}
+
+a.button:hover {
+background-position: bottom right;
+color: #000;
+outline: none; 
+}
+
+a.button:hover span {
+background-position: bottom left; 
+padding: 6px 0 4px 18px; 
+}
+
+
+/*-----------------------*/
+
+a.buttonDis {
+background: transparent url(/addressbook/resources/images/bg_button_aDis.gif) no-repeat scroll top right; /* Save the bg_button_a.gif in the same folder */ 
+color: #444; 
+display: block;
+float: left;
+font: normal 12px arial, sans-serif;
+height: 24px;
+margin-right: 6px;
+padding-right: 18px;
+text-decoration: none;
+}
+
+a.buttonDis span {
+background: transparent url(/addressbook/resources/images/bg_button_spanDis.gif) no-repeat top left; /* Save the bg_button_span.gif in the same folder */
+display: block;
+line-height: 14px; 
+padding: 5px 0 5px 18px; 
+}
+
+a.buttonDis:hover {
+background-position: bottom right;
+color: #000;
+outline: none; 
+}
+
+a.buttonDis:hover span {
+background-position: bottom left; 
+padding: 6px 0 4px 18px; 
+}
+
+.wordwrap{  
+white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+white-space: -pre-wrap;      /* Opera 4-6 */
+white-space: -o-pre-wrap;    /* Opera 7 */
+white-space: pre-wrap;       /* css-3 */
+word-wrap: break-word;       /* Internet Explorer 5.5+ */
+} 
+
+
+
+
+
